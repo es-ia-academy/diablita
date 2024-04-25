@@ -3,7 +3,7 @@
   background: red;
 }
 
-grid-page {
+#grid-page {
   display: grid;
   gap: 35px;
 }
