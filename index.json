@@ -15,6 +15,9 @@ grid-page {
   padding: 35px;
   margin: 0 auto;
 }
+grid-body{
+    display:grid;
+}
 
 section {
   position: relative;
