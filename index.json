@@ -1,0 +1,121 @@
+<style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px){ /* Mobile */ }</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><grid-body id="grid-body">
+  <section id="YBMolvm" data-type="section">
+      
+      <!--CSS-->
+      <style id="hUwJYiu" type="text/css" data-type="css" data-size="laptop" data-content="section">
+  grid-container#dLbyokQ {
+    position: relative;
+  }
+  grid-box#HqjkHOx{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
+    grid-auto-rows: auto;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    place-content:center;
+  }
+  bg-color#pywQTqv{
+    background:inherit;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  grid-box#HqjkHOx grid-item {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+    border-radius: 10px;
+    overflow: hidden;
+    background:#21292d;
+  }
+  grid-box#HqjkHOx item-body {
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+  }
+
+  grid-box#HqjkHOx grid-title {
+    font-size:1.5rem;
+    color:white;
+  }
+
+  grid-box#HqjkHOx grid-desc {
+    font-size: 12px;
+    color: #929292;
+  }
+
+  grid-box#HqjkHOx item-title {
+    color: white;
+  }
+
+  grid-box#HqjkHOx item-desc {
+    display: grid;
+    font-size: 12px;
+    color: #929292;
+  }
+  grid-head#HeDGMGb{
+    grid-column: 1 / -1;
+    display: grid;
+    margin-left: 15px;
+  }
+  grid-box#HqjkHOx item-head img{
+    background-color:black;
+    height:200px;
+    width:100%;
+    object-fit:cover;
+  }
+  </style>
+      <style id="JwYoNrB" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
+  grid-box#HqjkHOx {
+    display: grid;
+  }
+  }</style>
+      <style id="ftvByqn" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-head#HeDGMGb{
+    grid-column: 1 / -1;
+    display: grid;
+    place-content:center;
+    text-align:center;
+  }
+  grid-box#HqjkHOx {
+      display: grid;
+      gap:5px;
+      padding:0;
+      grid-template-columns: 1fr 1fr;
+  }
+  }</style>
+      
+      <!--HTML-->
+      <div id="YDNpUBZ" data-type="html">
+        <grid-container id="gPulMfd">
+          <grid-bg id="BpkxGBc">
+            <bg-color id="pywQTqv"></bg-color>
+          </grid-bg>
+          <grid-box id="HqjkHOx">
+            <grid-head id="HeDGMGb">
+              <grid-title id="xoGihiA" contenteditable="true">Lorem ipsum</grid-title>
+              <grid-desc id="GtDIjki" contenteditable="true">Lorem ipsum dolor sit amet</grid-desc>
+            </grid-head>
+            <grid-item id="JgWsSxc">
+        <item-head id="YULieuC">
+          <img id="PRSWpaI" src="../global/file/empty.svg" height="200" width="200" data-type="image-fg" loading="lazy">
+        </item-head>
+        <item-body id="WXbNtRd">
+          <item-title id="txShBTK" contenteditable="true">Lorem ipsum</item-title>
+          <item-desc id="uapnJqW" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit</item-desc>
+        </item-body>
+        <button class="no-export grid-delete-item" onclick="deleteItem('JgWsSxc')"><img src="./assets/svg/icons/delete.svg"></button>
+      </grid-item><button id="mOcxiYE" class="no-export grid-add-item" onclick="itemNew('HqjkHOx','mOcxiYE')">
+              <img id="server-addItem" src="../global/file/add.svg">
+            </button>
+          </grid-box>
+        </grid-container>
+      </div>
+      
+      <!--JS-->
+      <script id="SRavNsK" data-type="js"></script>
+      <!--EDIT-->
+      <button class="toolbar-open" onclick="toolsOpenModal(this)"><img src="../global/file/edit-section.svg"></button>
+  </section>
+  </grid-body><script id="page-global.js" type="text/javascript" data-type="js" data-size="global" data-content="page"></script>
