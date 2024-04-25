@@ -21,6 +21,7 @@ grid-body {
   gap: 35px;
   padding: 35px;
   margin: 0 auto;
+  width:100%;
 }
 
 section {
