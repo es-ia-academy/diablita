@@ -7,6 +7,11 @@
   display: grid;
   gap: 35px;
 }
+
+grid-page {
+  display: grid;
+  gap: 35px;
+}
 </style><grid-body id="grid-body"><section id="YBMolvm" data-type="section"><!--CSS--><style id="hUwJYiu" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#dLbyokQ {
   position: relative;
 }
