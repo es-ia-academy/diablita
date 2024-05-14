@@ -1,4 +1,14 @@
-<style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px){ /* Mobile */ }</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">body {
+<style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) {
+  grid-body {
+    display: grid;
+    position: relative;
+    gap: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page">body {
   font-family: 'Poppins', sans-serif;
   height: 100%;
   width: 100%;
